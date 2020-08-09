@@ -5,6 +5,10 @@ function App() {
   return (
     <div className="app">
       <h1>Let's Build Youtube Clone </h1>
+
+      {/* Header */}
+      {/* Sidebar */}
+      {/* RecommendedVideo */}
     </div>
   );
 }
