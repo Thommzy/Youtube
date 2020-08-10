@@ -17,14 +17,14 @@ function Header() {
       </div>
 
       <div className="header__input">
-        <input type="text" />
-        <SearchIcon />
+        <input placeholder="Search" type="text" />
+        <SearchIcon className="header__input__button" />
       </div>
 
       <div className="header__icons">
-        <VideoCallSharpIcon />
-        <AppsIcon />
-        <NotificationsIcon />
+        <VideoCallSharpIcon className="header_icon" />
+        <AppsIcon className="header_icon" />
+        <NotificationsIcon className="header_icon" />
         <Avatar
           alt="youtube_profile"
           src="https://yt3.ggpht.com/a-/AOh14GiKEZmfLsC66e5E8dJPhJPjuKe9Ld0Yd-Dc0-alRw=s88-c-k-c0xffffffff-no-rj-mo"
