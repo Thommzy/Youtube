@@ -9,6 +9,7 @@ import HistoryIcon from "@material-ui/icons/History";
 import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
 import WatchLaterIcon from "@material-ui/icons/WatchLater";
 import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined";
+import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined";
 
 function Sidebar() {
   return (
@@ -22,8 +23,7 @@ function Sidebar() {
       <SidebarRow icon={<OndemandVideoIcon />} title="Your videos" />
       <SidebarRow icon={<WatchLaterIcon />} title="watch Later" />
       <SidebarRow icon={<ThumbUpAltOutlinedIcon />} title="Liked videos" />
-      <SidebarRow />
-      <SidebarRow />
+      <SidebarRow icon={<ExpandMoreOutlinedIcon />} title="show more" />
     </div>
   );
 }
