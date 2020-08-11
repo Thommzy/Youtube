@@ -1,0 +1,8 @@
+:root {
+  --color-primary-black: #000;
+}
+
+.recommendedVideos {
+  flex: 0.8;
+  border: 1px solid var(--color-primary-black);
+}

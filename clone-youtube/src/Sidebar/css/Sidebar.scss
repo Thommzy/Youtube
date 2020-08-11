@@ -1,0 +1,57 @@
+:root {
+  --color-primary-grey: grey;
+  --color-primary-lightgray: lightgray;
+  --color-primary-red: red;
+}
+
+.sidebar {
+  flex: 0.2;
+  /*The line above means inside the contaainer sidebar will taake 20% */
+
+  > hr {
+    height: 1px;
+    border: 0;
+    background-color: var(--color-primary-grey);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.sidebarRow__icon {
+  display: flex;
+  color: var(--color-primary-grey);
+}
+
+.sidebarRow__title {
+  flex: 1;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.sidebarRow:hover {
+  background-color: var(--color-primary-lightgray);
+  cursor: pointer;
+  > .sidebarRow__icon {
+    color: var(--color-primary-red);
+  }
+  > .sidebarRow__title {
+    font-weight: bold;
+  }
+}
+
+.sidebarRow.selected {
+  background-color: var(--color-primary-lightgray);
+  > .sidebarRow__icon {
+    color: var(--color-primary-red);
+  }
+  > .sidebarRow__title {
+    font-weight: bold;
+  }
+}

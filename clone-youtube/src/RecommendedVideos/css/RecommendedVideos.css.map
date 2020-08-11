@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,qBAAqB,CAAA,KAAC;CACvB;;AAED,AAAA,kBAAkB,CAAC;EACjB,IAAI,EAAE,GAAG;EACT,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,0BAA0B;CAC7C",
+    "sources": [
+        "RecommendedVideos.scss"
+    ],
+    "names": [],
+    "file": "RecommendedVideos.css"
+}
